@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from streamlit_autorefresh import st_autorefresh
+#from streamlit_autorefresh import st_autorefresh
 
 st.set_page_config(
      page_title="Ex-stream-ly Cool App",
@@ -22,7 +22,7 @@ st.image(image, width=300)
 
 # Run the autorefresh about every 2000 milliseconds (2 seconds) and stop
 # after it's been refreshed 100 times.
-count = st_autorefresh(interval=30000, limit=100, key="fizzbuzzcounter")
+#count = st_autorefresh(interval=30000, limit=100, key="fizzbuzzcounter")
 
 def refresh():
     #st.write('Hello, *World!* :sunglasses:')
